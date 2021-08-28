@@ -145,7 +145,7 @@ if ($parent -eq "") {
             
                     else {
 	
-	                    Write-Host "Creating user: $username..." -ForegroundColor White
+	                Write-Host "Creating user: $username..." -ForegroundColor White
                         New-ADUser -SamAccountName $username -UserPrincipalName "$username@gilush.local" -Name "$firstname $lastname" -GivenName $firstname -Surname $lastname -Enabled $True -DisplayName "$lastname, $firstname" -Path $OU -AccountPassword (convertto-securestring "Ab123456!" -AsPlainText -Force) -ChangePasswordAtLogon $True                     
                         Add-ADGroupMember $group -Members $username 
                         Write-Host "User $firstname $lastname Created in OU: $OU" -ForegroundColor Green
