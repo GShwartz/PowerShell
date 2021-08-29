@@ -22,7 +22,7 @@ Import-Module ActiveDirectory
 Add-Type -AssemblyName System.Windows.Forms
 
 
-#Load a .CSV file.
+#Load a .CSV file. 
 $file = New-Object System.Windows.Forms.OpenFileDialog -Property @{
     InitialDirectory = [Environment]::GetFolderPath('Desktop')
 }
