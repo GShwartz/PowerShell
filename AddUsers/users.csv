@@ -1,0 +1,21 @@
+Firstname, Lastname, SamAccountName, Password, Group, JobTitle
+david,rozen,david.rozen,Ab123456!,Assembly;Assembly_MGMT,MGMT
+avi,bon,avi.bon,Ab123456!,Assembly;Assembly_MGMT, MGMT
+lior,efen,lior.efen,Ab123456!,Assembly, Floor
+oded,levi,oded.levi,Ab123456!,Assembly, Floor
+oren,lavi,oren.lavi,Ab123456!,Assembly,Floor
+tal,rend,tal.rend,Ab123456!,Assembly,Floor
+itay,bell,itay.bell,Ab123456!,Assembly,Floor
+moshe,si,moshe.si,Ab123456!,Assembly,Floor
+erez,yahav,erez.yahav,Ab123456!,Assembly,Floor
+nir,sol,nir.sol,Ab123456!,Assembly,Floor
+lizza,kepler,lizza.kepler,Ab123456!,Assembly,Floor
+efrat,dar,efrat.dar,Ab123456!,Sorting;Sorting_MGMT,MGMT
+shay,mon,shay.mon,Ab123456!,Sorting;Sorting_MGMT,MGMT
+roman,dot,roman.dot,Ab123456!,Sorting,Floor
+ben,lener,ben.lener,Ab123456!,Sorting,Floor
+itzik,sir,itzik.sir,Ab123456!,Sorting,Floor
+ram,lalo,ram.lalo,Ab123456!,Sorting,Floor
+yoni,sada,yoni.sada,Ab123456!,Sorting,Floor
+gilad,gas,gilad.gas,Ab123456!,Sorting,Floor
+dorin,leumi,dorin.leumi,Ab123456!,Sorting,Floor
