@@ -25,12 +25,6 @@ $dnsroot = Get-ADForest -Current LocalComputer | Select-Object Name -ExpandPrope
 $serverdns = Get-DnsServer -ComputerName $hostname -WarningAction SilentlyContinue
 $adgroups = Get-ADGroup -Properties * -Filter * -SearchBase $domain | Select-Object CN -ExpandProperty CN
 
-#Show Help in header. 
-Write-Host "==============================================================================="
-Write-Host "You can add the users to additional groups"
-Write-Host "==============================================================================="
-Write-Host ""
-
 #Get additional groups names from the user.
 $parent_groups = @()
 
